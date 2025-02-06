@@ -19,7 +19,7 @@ jobs:
     - name: Install dependencies
       shell: bash
       run: |
-        pip install fastapi locust uvicorn pytest
+        pip install fastapi locust uvicorn pytest httpx
 
     - name: Execution de pytest
       run: pytest
